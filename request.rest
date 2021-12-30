@@ -1,0 +1,22 @@
+GET http://localhost:3200/produit
+
+###
+
+
+GET http://localhost:3200/produit/3
+
+###
+
+POST http://localhost:3200/produit
+Content-Type: application/json
+
+{
+    "nom": "Nouveau produit",
+    "category": "Nouvelle catégorie de produit",
+    "desc": "Nouvelle description de produit",
+    "prix": 10,
+    "rating": 3.5,
+    "stock": 10,
+    "img": "Nom d'un fichier image contenu dans resources/static/assets/uploads/visual"
+}
+
